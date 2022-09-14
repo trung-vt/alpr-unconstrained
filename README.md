@@ -19,6 +19,20 @@ If you use results produced by our code in any publication, please cite our pape
   month={Sep},}
 ```
 
+
+## Setup Conda environment
+
+Reference: https://github.com/sergiomsilva/alpr-unconstrained/issues/131#issuecomment-647882187
+
+```shellscript
+$ conda create -n alpr-unconstrained python=2.7
+$ conda activate alpr-unconstrained
+$ pip install keras==2.2.4
+$ pip install tensorflow==1.5.0
+$ conda install -c menpo opencv
+```
+
+
 ## Requirements
 
 In order to easily run the code, you must have installed the Keras framework with TensorFlow backend. The Darknet framework is self-contained in the "darknet" folder and must be compiled before running the tests. To build Darknet just type "make" in "darknet" folder:
