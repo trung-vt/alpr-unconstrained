@@ -38,7 +38,7 @@ $ conda install -c menpo opencv
 In order to easily run the code, you must have installed the Keras framework with TensorFlow backend. The Darknet framework is self-contained in the "darknet" folder and must be compiled before running the tests. To build Darknet just type "make" in "darknet" folder:
 
 ```shellscript
-$ cd darknet && make
+$ cd darknet && make && cd -
 ```
 
 **The current version was tested in an Ubuntu 16.04 machine, with Keras 2.2.4, TensorFlow 1.5.0, OpenCV 2.4.9, NumPy 1.14 and Python 2.7.**
